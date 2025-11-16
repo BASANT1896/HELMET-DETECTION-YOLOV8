@@ -12,11 +12,14 @@ This model is designed for construction-site safety monitoring to ensure workers
 
 The model accurately detects **helmets** and **vests** across diverse construction-site environments using the improved YOLOv8 + SPD-EMA architecture.
 
-**SAMPLE IMAGE**
+**SAMPLE IMAGES**
+
 
 <p align="center">
-  <img src="sample_images/hard_hat_workers957_png.rf.963e0a153b3c8fb648135d3890dbdde6.jpg" alt="Sample Detection Result" width="600">
+  <img src="sample_images/hard_hat_workers1346_png.rf.cbfddfe0bb6cfe30eefc3f11efc83ec2.jpg" alt="Sample 1" width="45%">
+  <img src="sample_images/hard_hat_workers957_png.rf.963e0a153b3c8fb648135d3890dbdde6.jpg" alt="Sample 2" width="45%">
 </p>
+
 
 
 🔗 **[Google Drive – Full Results Folder](https://drive.google.com/drive/folders/1mN1S-gdZScozvR29-8DpZ5WK6loHT276?usp=drive_link)**  
