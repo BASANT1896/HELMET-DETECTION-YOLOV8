@@ -114,11 +114,24 @@ Predict using trained model:
 python detect.py
 ```
 
-## 📊 Dataset
+##  Dataset
 
 This project uses the **"Hardhat + Vests"** dataset from Kaggle.
 
 [![Kaggle Dataset](https://img.shields.io/badge/KAGGLE-DATASET-20BEFF?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/datasets/muhammetzahitaydn/hardhat-vest-dataset-v3)
+
+We have improved this dataset through roboflow preprocessing and augmentation to associate the jpg images with their corresponding labels mentioned in .xml files
+
+## **Setup Instructions**:
+
+1).Download the dataset from Kaggle
+2).Extract contents to the extracted_dataset directory
+3).Verify directory structure matches config/data.yaml
+
+## Additional Applications:
+
+- 🚦 **Traffic Violation Monitoring**: Automatically detect safety-related traffic violations such as missing helmets, improper lane usage, or unsafe riding behavior.
+- 🔥 **Emergency Response Monitoring**: Detect missing PPE (e.g., fire-retardant suits, gloves) in high-risk or hazardous environments.
 
 
 
