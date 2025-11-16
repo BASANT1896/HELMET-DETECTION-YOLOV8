@@ -83,10 +83,11 @@ source .venv/bin/activate     # Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+```
 
 ## 📦 Requirements
 
-The `requirements.txt` file contains all necessary Python packages for this project:
+The requirements.txt file contains all necessary Python packages for this project:
 
 - `ultralytics` (for YOLOv8)
 - `opencv-python` (OpenCV)
@@ -96,9 +97,10 @@ If installation causes issues, install core dependencies manually:
 
 ```bash
 pip install ultralytics opencv-python
-
+```
 Train the model:
 
+```bash
 cd scripts
 python train.py
-
+```
