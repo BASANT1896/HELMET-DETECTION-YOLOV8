@@ -44,6 +44,9 @@ HelmetGuard improves YOLOv8 by integrating:
 Together, SPD-Conv + EMA significantly boost accuracy and feature consistency compared to baseline YOLOv8.
 
 The idea/concept has been explained in detail in the report associated in this github repository.
+📄 **Report:**  
+[SPD + EMA Model Report](spd_ema_report.pdf)
+
 
 ---
 
