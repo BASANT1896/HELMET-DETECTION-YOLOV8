@@ -12,10 +12,10 @@ def run_inference(
     """
     Generate predictions using trained SPD + EMA YOLOv8 model.
     """
-    print("🔍 Loading model:", weights)
+    print(" Loading model:", weights)
     model = YOLO(weights)
 
-    print("📸 Running inference...")
+    print(" Running inference...")
     model.predict(
         source=source,
         save=True,
@@ -25,7 +25,7 @@ def run_inference(
         exist_ok=True
     )
 
-    print("✅ Predictions saved!")
+    print(" Predictions saved!")
 
 
 if __name__ == "__main__":
