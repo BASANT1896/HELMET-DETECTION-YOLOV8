@@ -104,5 +104,16 @@ Train the model:
 
 ```bash
 cd scripts
+python spd_convlayer.py
+python ema_attention.py
 python train.py
 ```
+Predict using trained model:
+
+```bash
+python detect.py
+```
+
+##📊 Dataset
+
+
