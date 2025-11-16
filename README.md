@@ -74,8 +74,8 @@ This confirms the model’s strong capability for real-world construction-site s
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/helmet-guard.git
-cd helmet-guard
+git clone https://github.com/yourusername/HELMET_DETECTION-YOLOV8.git
+cd HELMET_DETECTION-YOLOV8
 
 # Create and activate virtual environment
 python -m venv .venv
@@ -83,3 +83,22 @@ source .venv/bin/activate     # Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+## 📦 Requirements
+
+The `requirements.txt` file contains all necessary Python packages for this project:
+
+- `ultralytics` (for YOLOv8)
+- `opencv-python` (OpenCV)
+- And their dependencies
+
+If installation causes issues, install core dependencies manually:
+
+```bash
+pip install ultralytics opencv-python
+
+Train the model:
+
+cd scripts
+python train.py
+
