@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# YOLOv8 outputs
+runs/
+spd_ema_runs/
+wandb/
+
+# Model weights
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.h5
+
+# System files
+.DS_Store
+Thumbs.db
