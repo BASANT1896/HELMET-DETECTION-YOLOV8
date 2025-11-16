@@ -50,11 +50,11 @@ The idea/concept has been explained in detail in the report associated in this g
 ## 📈 Training Metrics
 
 <p align="center">
-  <img src="yolo_results/confusion_matrix.jpg" width="45%"/>
-  <img src="yolo_results/PR_curve.jpg" width="45%"/>
+  <img src="yolo_results/confusion_matrix.png" width="45%"/>
+  <img src="yolo_results/PR_curve.png" width="45%"/>
   <br>
-  <img src="yolo_results/R_curve.jpg" width="45%"/>
-  <img src="yolo_results/F1_curve.jpg" width="45%"/>
+  <img src="yolo_results/R_curve.png" width="45%"/>
+  <img src="yolo_results/F1_curve.png" width="45%"/>
 </p>
 
 
