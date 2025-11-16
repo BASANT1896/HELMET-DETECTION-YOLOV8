@@ -25,19 +25,19 @@ def train(
     import ultralytics
     ultralytics.utils.callbacks.wb = {}
 
-    print("🚀 Loading model...")
+    print(" Loading model...")
     model = YOLO(model_path)
 
-    print("🔧 Replacing Conv layers with SPDConv...")
+    print(" Replacing Conv layers with SPDConv...")
     replace_conv_with_spd(model.model, use_modulation=True)
 
-    print("✨ Adding EMA Attention block...")
+    print(" Adding EMA Attention block...")
     model.model.model[2] = nn.Sequential(
         model.model.model[2],
         EMAAttention(64)
     )
 
-    print("🏋️ Starting training...\n")
+    print(" Starting training...\n")
     results = model.train(
         data=data_yaml,
         epochs=epochs,
@@ -48,7 +48,7 @@ def train(
         exist_ok=True
     )
 
-    print("✅ Training completed.")
+    print(" Training completed.")
     return results
 
 
