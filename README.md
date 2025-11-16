@@ -120,7 +120,7 @@ This project uses the **"Hardhat + Vests"** dataset from Kaggle.
 
 [![Kaggle Dataset](https://img.shields.io/badge/KAGGLE-DATASET-20BEFF?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/datasets/muhammetzahitaydn/hardhat-vest-dataset-v3)
 
-We have improved this dataset through roboflow preprocessing and augmentation to associate the jpg images with their corresponding labels mentioned in .xml files
+We have improved this dataset through roboflow preprocessing and augmentation to associate the jpg images with their corresponding labels mentioned in .xml files.
 
 ## **Setup Instructions**:
 
